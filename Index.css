@@ -1,0 +1,102 @@
+body{
+  font-family: "Lexend Deca", Sans-Serif;
+}
+.card{
+  padding: 30px;
+}
+.container{
+  padding: 20px;
+}
+h3{
+  font-family: "Big Shoulders Display", Sans-Serif;
+  text-transform: uppercase;
+  font-size: 28px;;
+}
+.Sedans{
+  background-color: hsl(31, 77%, 52%);
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+.SUVs{
+  background-color: hsl(184, 100%, 22%);
+  color: #fff;
+}
+.Luxury{
+  background-color: hsl(179, 100%, 13%);
+color: #fff;
+border-radius: 0 0 10px 10px ;
+}
+.card img{
+  margin-bottom: 25px;
+}
+.card h3{
+  margin-bottom: 20px;
+}
+.card p{
+  margin-bottom: 30px;
+}
+.btn{
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: All 0.4s ease-in-out;
+}
+.Luxury .btn{
+  color: hsl(179, 100%, 13%);
+}
+.SUVs .btn{
+  color: hsl(184, 100%, 22%);
+}
+.Sedans .btn{
+  color: hsl(31, 77%, 52%);
+}
+.btn:hover{
+  background-color: transparent;
+  color: #fff;
+}
+.lexend-deca-h3{
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.big-shoulders-display-p {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+p{ 
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+@media (min-width: 992px){
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vb;
+    max-width: 900px;
+    margin: auto;
+  }
+  .Sedans{
+    border-radius: 10px 0 0 10px;
+  }
+  .Luxury{
+    border-radius: 0 10px 10px 0;
+  }
+  .card p{
+  margin-bottom: 80px;
+}
+.card{
+  padding: 45;
+}
+}
